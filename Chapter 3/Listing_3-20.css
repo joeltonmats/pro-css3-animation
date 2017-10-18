@@ -1,0 +1,42 @@
+#cardfan,
+#cardfan img {
+    width: 640px;
+    height: 480px;
+    transition: .6s transform ease-out;
+}
+
+#cardfan {
+    margin: 0 auto;
+}
+
+#cardfan img {
+    border: 32px solid #ffe;
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    transform-origin: center 1200px;
+}
+
+div#cardfan:hover img:first-child {
+    transform: rotate(6deg);
+}
+
+div#cardfan:hover img:last-child {
+    transform: rotate(-6deg);
+}
+
+
+/* #cardfan img:nth-child(2n) {
+    transform: rotate(−6deg);
+} */
+
+/* #cardfan img[src="three.jpg"] {
+    transform: rotate(6deg);
+}
+
+#cardfan img[src="two.jpg"] {
+    transform: rotate(−6deg);
+}
+
+#cardfan:hover img[src="one.jpg"] {
+    transform: rotate(-24deg);
+} */

@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+figure {
+    float: left;
+}
+
+figure,
+figure img {
+    width: 500px;
+    height: 333px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+figcaption {
+    font-family: Baskerville, "Baskerville Old Face", Garamond, "Times New Roman", serif;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 2rem;
+    padding: 0.8rem;
+    color: #fff;
+    position: relative;
+    bottom: 400px;
+    transition: 2s all;
+}
+
+figure:hover figcaption {
+    bottom: 340px;
+}

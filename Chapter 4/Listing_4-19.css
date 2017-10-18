@@ -1,3 +1,12 @@
-input:valid, input:invalid {box-shadow: none; } 
-input:valid { border: 2px solid green; } 
-input:invalid { border: 2px solid yellow; } 
+input:valid,
+input:invalid {
+    box-shadow: none;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 2px solid yellow;
+}

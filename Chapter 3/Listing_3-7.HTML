@@ -3,18 +3,21 @@
 <head> 
 <meta charset=utf-8> 
 <title> CSS3 Gallery</title> 
-<style> 
-         body { background: #234; } 
-</style> 
+<link rel="stylesheet" type="text/css" href="Listing_3-7.css">
 </head> 
 <body> 	
 <dl id=gallery> 
-         <dt><img src=jatropha_thumb.jpg alt="Jatropha Leaf Thumbnail"> 
-         <dd><img src=jatropha.jpg alt="Jatropha Leaf Large"> 
-         <dt><img src=leaf-veins_thumb.jpg alt="Leaf Veins Thumbnail"> 
-         <dd><img src=leaf-veins.jpg alt="Leaf Veins"> 
-         <dt><img src=cascada_thumb.jpg alt="Cascada Thumbnail"> 
-         <dd><img src=cascada.jpg alt="Cascada Large"> 
+         <dt><a href="#jatropha"><img src="one.jpg" class="thumb" alt="Jatropha Leaf Thumbnail"></a> 
+         <dd id="jatropha"><img src="one.jpg" alt="Jatropha Leaf Large"> 
+          A closeup photograph of a Jatropha Hybrid
+         
+          <dt href=#veins><a href="#"><img src="two.jpg" class="thumb" alt="Leaf Veins Thumbnail"></a> 
+         <dd id="veins"><img src="two.jpg" alt="Leaf Veins"> 
+          Closeup photgraph of leaf veins 
+         
+         <dt><a href="#cascada"><img src="three.jpg" class="thumb" alt="Cascada Thumbnail"></a> 
+         <dd id="cascada"><img src="three.jpg" alt="Cascada Large"> 
+        Falls in Dundas Peak, Ontario, Canada 
 </dl> 
 </body> 
 </html> 

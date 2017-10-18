@@ -1,3 +1,14 @@
-button { transition: .6s all ease-in-out; } 
-button:hover { width: 290px; color: #fff; text-shadow: none;  } 
-button:hover span.hidden { width: 120px; padding: 22px;  } 
+button {
+    transition: .6s all ease-in-out;
+}
+
+button:hover {
+    width: 290px;
+    color: #fff;
+    text-shadow: none;
+}
+
+button:hover span.hidden {
+    width: 120px;
+    padding: 22px;
+}
